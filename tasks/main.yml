@@ -1,2 +1,9 @@
 ---
 # tasks file for jenkins
+#
+#
+- name: executing creating a file in localhost
+  file:
+      path: /root/jenkins_file.txt
+      state: touch
+
